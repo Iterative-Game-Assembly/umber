@@ -1,0 +1,18 @@
+# Godot-specific ignores
+src/.import/
+src/export.cfg
+
+# Imported translations (automatically generated from CSV files)
+src/*.translation
+
+# Game builds
+build/*
+!build/.gitkeep
+
+# Image editor junk
+*-autosave.kra
+*.png~
+*.kra~
+
+# IDE files
+.vscode/
